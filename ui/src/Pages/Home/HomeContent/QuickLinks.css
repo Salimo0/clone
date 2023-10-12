@@ -1,0 +1,56 @@
+/* QuickLinks.css */
+
+.btn {
+    padding: 200px 140px;
+    margin-right: 30px;
+    color: rgb(0, 0, 0); 
+    background-color: #fff;
+    border-color: #2354b3;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    width: auto;
+    box-sizing: border-box;
+    max-width: 300px; 
+    white-space: wrap; 
+    position: relative; 
+    overflow: hidden;
+    
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.allbtn {
+    position: absolute;
+    top: 1100px;
+    left: 300px;
+}
+
+.btn h1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: linear-gradient(to right, #000000, #2354b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn p {
+    position: absolute;
+    top: 160px;
+    left: 7px;
+    right: 7px;
+    max-height: 90px;
+    margin: 11px;
+}
+
+.img {
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    width: 50px;
+    height: auto;
+}

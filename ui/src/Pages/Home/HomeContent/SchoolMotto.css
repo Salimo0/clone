@@ -1,0 +1,55 @@
+/*SchoolMotto.css*/
+
+.part-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 760px;
+    right: 10px;
+    left: 10px;
+    text-align: center;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.part-two h3 {
+    position: absolute;
+    bottom: 300px;
+    right: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #2354b3;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border: 2px solid #0d408f;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.image-container p {
+    margin-top: 6px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-container h4{
+    color: #2354b3;
+}
